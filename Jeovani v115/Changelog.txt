@@ -1,0 +1,155 @@
+VER 1.1.5
+
+-Fixes-
+
+Fixed the issue of messages and rewards not appearing when completing quests
+Fixed items not appearing on the flea market
+
+
+VER 1.1.4
+
+-Fixes-
+
+Fixed compatability with AKI Ver 3.7.5
+
+VER 1.1.3
+
+-Fixes-
+
+fixed compatability by adding VCQL 1.4.1
+
+
+VER 1.1.2
+
+-Fixes-
+
+Replaced Sr-25 weapon core reward with LAB keycard
+
+-Added-
+
+Virtual's Custom Quest Loader 1.3.0.1 Is now included with the mod
+
+VER 1.1.1
+
+-Fixes-
+
+Fixed package asking for outdated Quest Loader
+
+VER 1.1.0
+
+-Added-
+
+Custom quests are here! 5 New Quests for players to get their toes wet in the world of spycraft!
+
+Tier 2 now requires 0.1 standing, which can be achieved through quests
+
+-Dependency-
+
+Virtual's Custom Quest Loader is now a dependency for this mod
+
+-Fixes-
+
+Minor tweaks to trade value
+
+VER 1.0.1
+
+-Fixes-
+
+Fixed extortable buyback pricing
+
+VER 1.0.0
+
+-Official Release-
+
+Insurance currently disabled due to "not enough funds" bug
+
+"For trade" additions:
+Ammo
+Tier 1:
+$1  .45 Lasermatch FMJ "5efb0d4f4bc50b58e81710f3"
+$2  .300 Blackout V-Max "6196364158ef8c428c287d9f"
+$1  5.56x45mm HP "59e6927d86f77411da468256"
+$2  5.56x45mm MK 255 Mod 0 (RRLP) "59e6918f86f7746c9f75e849"
+$2 5.56x45mm MK 255 Mod 0 (SOST) "60194943740c5d77f6705eea"
+$1  5.56x45mm FMJ "59e6920f86f77411d82aa167"
+$1  5.56x45mm M856 "59e68f6f86f7746c9f75e846"
+$1  5.56x45mm M855 "54527a984bdc2d4e668b4567"
+$4  5.56x45mm Warmageddon "5c0d5ae286f7741e46554302"
+$1  5.7x28mm R37.X "5cc86840d7f00c002412c56c"
+$1  5.7x28mm SS198LF "5cc80f79e4a949033c7343b2"
+$2  5.7x28mm R37.F "5cc86832d7f00c000d3a6e6c"
+$1  9x19mm PSO "58864a4f2459770fcc257101"
+$1  9x19mm T "5c3df7d588a4501f290594e5"
+$1  9x19mm Luger CCI "5a3c16fe86f77452b62de32a"
+$1  9x19mm PST "56d59d3ad2720bdb418b4577"
+
+Tier 2:
+$1  .45 Hydra-Shok "5efb0fc6aeb21837e749c801"
+$4  .45 RIP "5ea2a8e200685063ec28c05a"
+$1  .300 Blackout BCP FMJ "5fbe3ffdf8b6a877a729ea82"
+$1  .300 Blackout Whisper "6196365d58ef8c428c287da1"
+$10  .338 ML TAC-X "5fc382b6d6fa9c00c571bbc3"
+$1  5.7x28mm L191 "5cc80f53e4a949000e1ea4f8"
+$2  9x19mm Quakemaker "5efb0e16aeb21837e749c7ff"
+$4  9x19mm RIP "5c0d56a986f774449d5de529"
+$1  12/70 FTX Custom Lite "5d6e68e6a4b9361c140bcfe0"
+
+Tier 3:
+$5  .45 ACP AP "5efb0cabfb3e451d70735af5"
+$1  .45 Match FMJ "5e81f423763d9f754677bf2e"
+$2  .300 Blackout M62 "619636be6db0f2477964e710"
+$2  5.7x28mm SS190 "5cc80f38e4a949001152b560"
+$2  5.7x28mm SB193 "5cc80f67e4a949035e43bbba"
+$3  5.56x45mm M856A1 "59e6906286f7746c9f75e847"
+$3  9x19mm AP 6.3 "5c925fa22e221601da359b7b"
+$5  9x19mm PBP "5efb0da7a29a85116f6ea05f"
+$5  12/70 RIP "5c0d591486f7744c505b416f"
+$2  12/70 Superformance "5d6e68d1a4b93622fe60e845"
+
+Tier 4:
+$5  .300 Blackout AP "5fd20ff893a8961fc660a954"
+$25  .338 LM AP "5fc382a9d724d907e2077dab"
+$20  .338 LP FMJ "5fc275cf85fd526b824a571a"
+$15  5.56x45mm M995 "59e690b686f7746c9f75e848"
+$5  5.56x45mm M855A1 "54527ac44bdc2d36668b4567"
+$15  5.56x45mm SSA AP "601949593ae8f707c4608daa"
+$20  12/70 AP-20 "5d6e68a8a4b9360b6c0d54e2"
+$3  12/70 Flechette "5d6e6911a4b9361bd5780d52"
+$6  338 LM UCW "5fc382c1016cce60e8341b20"
+
+Items:
+Tier 1:
+$20  M18 smoke grenade "617aa4dd8166f034d57de9c5"
+$100  M9A3 USMC Standard Issue "8aad2a0df562c42a1bdce089"
+$400  M4A1 Block 1 POG "403bdbce20cf447c9bd1dcc6"
+$450  M4A1 Block 1 Infantry "ccbadfad155a684d5be240e3"
+$300  m1014 MasterKey "e211e34ba75f145e8ce19a2e"
+$350  m700 M24 Sniper Weapon System "964c8900d7358103a3800a8a"
+
+Tier 2:
+$50  Model 7290 Flash Bang grenade "619256e5f8af2c1a4e1f5d92"
+$100  M67 hand grenade "58d3db5386f77426186285a0"
+$150  Colt M45A1 CQBP "1cb526d861167b1e1db22b77"
+$600  M4A1 Block 1.5 SOPMOD CQB "b6632be84ddb88741e039956"
+$650  M4A1 Block 1.5 SOPMOD Ranged "a7e5ad18180dec0548667104"
+$600  HK 416 USMC M27 IAR "ce60c29675d0bf9960352427"
+$250  PNV-10T "5c0696830db834001d23f5da"
+$2000  Mk-11 Block 2 "88fa23d6a9f62fbba3668f77"
+$300  Gruppa 99 T20 backpack "619cf0335771dd3c390269ae"
+$600  Eagle Industries MMAC plate carrier "61bc85697113f767765c7fe7"
+
+Tier 3:
+$200  p228 M25 SEAL Team "Foxhound" "9d941aadff0875a9cc4a947e"
+$400  MP7 SEAL Team Modernised "37bca0235ff5e04b94af3157"
+$600  M4A1 Block 2 Infantry "80c25aae22c5054e2947abfd"
+$700  M4A1 Block 2 SOPMOD "eb7a2d9f37b993300bbe6eec"
+$700  P90 Air Force -alien Slayer- "54f3895e6d72e5867d73a3e3"
+$2000  5.11 Tactical TacTec plate carrier "5b44cad286f77402a54ae7e5"
+
+
+Tier 4:
+$1000  Milkor M32A1 MSGL 40mm grenade launcher "6275303a9f372d6ea97f9ec7"
+$900  M4 URGI "Block 3" "981eddf272420e15315e3ff9"
+$1000  GPNVG-18 "5c0558060db834001b735271"
+$7000  LBT-6094A Slick Plate Carrier "6038b4b292ec1c3103795a0b"
+$3000  Tasmanian Tiger SK plate carrier "628cd624459354321c4b7fa2"
