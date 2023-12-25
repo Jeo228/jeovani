@@ -1,0 +1,770 @@
+{
+    "JQ_1": {
+        "QuestName": "Of all the gin joints, in all the world",
+        "_id": "JQ_1",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "JQ_1 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "JQ_1_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5c12613b86f7743bbe2c3f76"],
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "compareMethod": ">=",
+                        "dynamicLocale": false,
+                        "id": "JQ_1_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "value": 10,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "JQ_1 description",
+        "failMessageText": "JQ_1 failMessageText",
+        "image": "/files/quest/icon/JQ_1thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "JQ_1 name",
+        "note": "JQ_1 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "JQ_1_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "5000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "JQ_1_Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "JQ_1_Reward_2_1",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 500
+                            }
+                        }
+                    ],
+                    "target": "JQ_1_Reward_2_1",
+                    "type": "Item",
+                    "value": "500"
+                },
+                {
+                    "id": "JQ_1_Reward_3",
+                    "index": 2,
+                    "target": "jeovani",
+                    "type": "TraderStanding",
+                    "value": "0.02"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "JQ_1 startedMessageText",
+        "successMessageText": "JQ_1 successMessageText",
+        "templateId": "JQ_1",
+        "traderId": "jeovani",
+        "type": "PickUp"
+    },
+	    "JQ_2": {
+        "QuestName": "My Brother's Peacekeeper",
+        "_id": "JQ_2",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "JQ_2 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "JQ_2_AFF_0",
+            "index": 0,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "plantTime": 20,
+            "zoneId": "place_peacemaker_002_N1",
+            "target": [
+              "60391b0fb847c71012789415"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "JQ_2_AFF_1",
+            "index": 1,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "plantTime": 20,
+            "zoneId": "place_peacemaker_002_N2",
+            "target": [
+              "60391b0fb847c71012789415"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "JQ_2_AFF_2",
+            "index": 2,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "plantTime": 20,
+            "zoneId": "place_peacemaker_002_N3",
+            "target": [
+              "60391b0fb847c71012789415"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "JQ_2_Counter_0",
+              "conditions": [
+                {
+                  "_parent": "ExitStatus",
+                  "_props": {
+                    "status": [
+                      "Survived",
+                      "Runner"
+                    ],
+                    "id": "JQ_2_Status_0"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "bigmap"
+                    ],
+                    "id": "JQ_2_Status_1"
+                  }
+                }
+              ]
+            },
+            "id": "5c9394a986f7741228714be3",
+            "index": 3,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "1",
+            "visibilityConditions": [
+              {
+                "_parent": "CompleteCondition",
+                "_props": {
+                  "target": "JQ_2_AFF_0",
+                  "id": "JQ_2_CON_0"
+                }
+              },
+              {
+                "_parent": "CompleteCondition",
+                "_props": {
+                  "target": "JQ_2_AFF_1",
+                  "id": "JQ_2_CON_1"
+                }
+              },
+              {
+                "_parent": "CompleteCondition",
+                "_props": {
+                  "target": "JQ_2_AFF_2",
+                  "id": "JQ_2_CON_2"
+                }
+              }
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "compareMethod": ">=",
+                        "dynamicLocale": false,
+                        "id": "JQ_2_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "value": 10,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+				{
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "JQ_2_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "JQ_1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "JQ_2 description",
+        "failMessageText": "JQ_2 failMessageText",
+        "image": "/files/quest/icon/JQ_2thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "56f40101d2720b2a4d8b45d6",
+        "name": "JQ_2 name",
+        "note": "JQ_2 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [
+        {
+                    "findInRaid": true,
+                    "id": "JQ_2_start_1",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "JQ_2_start_1_1",
+                            "_tpl": "60391b0fb847c71012789415",
+                            "upd": {
+                                "StackObjectsCount": 3
+                            }
+                        }
+                    ],
+                    "target": "JQ_2_start_1_1",
+                    "type": "Item",
+                    "value": "3"
+                }
+			],
+            "Success": [
+                {
+                    "id": "JQ_2_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "5000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "JQ_2_Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "JQ_2_Reward_2_1",
+                            "_tpl": "6357c98711fb55120211f7e1",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "JQ_2_Reward_2_1",
+                    "type": "Item",
+                    "value": "1"
+                },
+				{
+                    "findInRaid": true,
+                    "id": "JQ_2_Reward_3",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "JQ_2_Reward_3_1",
+                            "_tpl": "5ede474b0c226a66f5402622",
+                            "upd": {
+                                "StackObjectsCount": 3
+                            }
+                        }
+                    ],
+                    "target": "JQ_2_Reward_3_1",
+                    "type": "Item",
+                    "value": "3"
+                },
+                {
+                    "id": "JQ_2_Reward_4",
+                    "index": 2,
+                    "target": "jeovani",
+                    "type": "TraderStanding",
+                    "value": "0.02"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "JQ_2 startedMessageText",
+        "successMessageText": "JQ_2 successMessageText",
+        "templateId": "JQ_2",
+        "traderId": "jeovani"
+    },
+	"JQ_3": {
+    "QuestName": "Counter-Intelligence",
+    "_id": "JQ_3",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "JQ_3 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "JQ_3_AFF_0_0",
+              "conditions": [
+                {
+                  "_parent": "VisitPlace",
+                  "_props": {
+                    "id": "JQ_3_AFF_0_1",
+                    "target": "room214",
+                    "value": "1"
+                  }
+                }
+              ]
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "JQ_3_AFF_0",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Exploration",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "JQ_3_AFF_1_0",
+              "conditions": [
+                {
+                  "_props": {
+                    "status": [
+                      "Survived",
+                      "Runner"
+                    ],
+                    "id": "JQ_3_AFF_1_1",
+                    "dynamicLocale": false
+                  },
+                  "_parent": "ExitStatus"
+                },
+                {
+                  "_props": {
+                    "target": [
+                      "bigmap"
+                    ],
+                    "id": "JQ_3_AFF_1_2",
+                    "dynamicLocale": false
+                  },
+                  "_parent": "Location"
+                }
+              ]
+            },
+            "id": "JQ_3_AFF_1",
+            "index": 1,
+            "parentId": "",
+            "oneSessionOnly": true,
+            "dynamicLocale": false,
+            "type": "Exploration",
+            "doNotResetIfCounterCompleted": false,
+            "value": "1",
+            "visibilityConditions": [
+              {
+                "_parent": "CompleteCondition",
+                "_props": {
+                  "target": "JQ_3_AFF_0",
+                  "id": "JQ_3_AFF_1_3"
+                }
+              }
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+                "_parent": "Quest",
+                "_props": {
+                    "availableAfter": 0,
+                    "dynamicLocale": false,
+                    "id": "JQ_3_AFS_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [4],
+                    "target": "JQ_2",
+                    "visibilityConditions": []
+                },
+                "dynamicLocale": false
+            }
+      ],
+      "Fail": []
+    },
+    "description": "JQ_3 description",
+    "failMessageText": "JQ_3 failMessageText",
+    "name": "JQ_3 name",
+    "note": "JQ_3 note",
+    "traderId": "jeovani",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/JQ_3thumbnail.png",
+    "type": "Exploration",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "JQ_3 description",
+    "successMessageText": "JQ_3 successMessageText",
+    "templateId": "JQ_3",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "6500",
+          "id": "JQ_3_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "JQ_3_Reward1",
+          "type": "TraderStanding",
+          "target": "jeovani",
+          "index": 1
+        },
+		{
+					"findInRaid": true,
+                    "id": "JQ_3_ItemReward0",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "JQ_3_ItemReward0_1",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 500
+                            }
+                        }
+                    ],
+                    "target": "JQ_3_ItemReward0_1",
+                    "type": "Item",
+                    "value": "500"
+                },
+        {
+          "value": "60",
+          "id": "JQ_3_Reward3",
+          "type": "Item",
+          "target": "JQ_3_ItemReward1",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "JQ_3_ItemReward1",
+              "_tpl": "5c925fa22e221601da359b7b",
+              "upd": {
+                "StackObjectsCount": 60
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+     "secretQuest": false,
+     "side": "Pmc",
+     "startedMessageText": "JQ_3 startedMessageText",
+     "successMessageText": "JQ_3 successMessageText",
+     "templateId": "JQ_3",
+     "traderId": "jeovani"
+	},
+	"JQ_4": {
+    "QuestName": "Dud",
+    "_id": "JQ_4",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "JQ_4 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "JQ_4_AFF_0",
+            "index": 0,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "dynamicLocale": false,
+            "target": [
+              "5d0379a886f77420407aa271"
+            ],
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+                "_parent": "Quest",
+                "_props": {
+                    "availableAfter": 0,
+                    "dynamicLocale": false,
+                    "id": "JQ_4_AFS_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [4],
+                    "target": "JQ_3",
+                    "visibilityConditions": []
+                },
+                "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "JQ_4 description",
+    "failMessageText": "JQ_4 failMessageText",
+    "name": "JQ_4 name",
+    "note": "JQ_4 note",
+    "traderId": "jeovani",
+    "location": "any",
+    "image": "/files/quest/icon/JQ_4thumbnail.png",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "JQ_4 description",
+    "successMessageText": "JQ_4 successMessageText",
+    "templateId": "JQ_4",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "20000",
+          "id": "JQ_4_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "JQ_4_Reward1",
+          "type": "TraderStanding",
+          "target": "jeovani",
+          "index": 1
+        },
+        {
+          "value": "1",
+          "id": "JQ_4_Reward2",
+          "type": "Item",
+          "target": "JQ_4_ItemReward1",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "JQ_4_ItemReward1",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "JQ_4_Reward3",
+          "type": "Item",
+          "target": "JQ_4_ItemReward2",
+          "index": 4,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "JQ_4_ItemReward2",
+              "_tpl": "62a0a124de7ac81993580542",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+     "secretQuest": false,
+     "side": "Pmc",
+     "startedMessageText": "JQ_4 startedMessageText",
+     "successMessageText": "JQ_4 successMessageText",
+     "templateId": "JQ_4",
+     "traderId": "jeovani"
+  },
+  "JQ_5": {
+    "QuestName": "False Flag - Part 1",
+    "_id": "JQ_5",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "JQ_5 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "JQ_5_AFF_0",
+            "index": 0,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "plantTime": 20,
+            "target": [
+              "5d1b36a186f7742523398433"
+            ],
+            "value": "1",
+            "visibilityConditions": [],
+            "zoneId": "huntsman_005_1"
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+                "_parent": "Quest",
+                "_props": {
+                    "availableAfter": 0,
+                    "dynamicLocale": false,
+                    "id": "JQ_4_AFS_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [4],
+                    "target": "JQ_3",
+                    "visibilityConditions": []
+                },
+            "dynamicLocale": false
+        }  
+      ],
+      "Fail": []
+    },
+    "description": "JQ_5 description",
+    "failMessageText": "JQ_5 failMessageText",
+    "name": "JQ_5 name",
+    "note": "JQ_5 note",
+    "traderId": "jeovani",
+    "location": "5704e3c2d2720bac5b8b4567",
+    "image": "/files/quest/icon/JQ_5thumbnail.png",
+    "type": "Discover",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "JQ_5 description",
+    "successMessageText": "JQ_5 successMessageText",
+    "templateId": "JQ_5",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "5000",
+          "id": "JQ_5_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "JQ_5_Reward1",
+          "type": "TraderStanding",
+          "target": "jeovani",
+          "index": 1
+        },
+        {
+          "value": "800",
+          "id": "JQ_5_Reward2",
+          "type": "Item",
+          "target": "JQ_5_ItemReward0",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "JQ_5_ItemReward0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 800
+              }
+            }
+          ]
+        },
+        {
+          "value": "90",
+          "id": "JQ_5_Reward3",
+          "type": "Item",
+          "target": "JQ_5_ItemReward1",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "JQ_5_ItemReward1",
+              "_tpl": "59e6906286f7746c9f75e847",
+              "upd": {
+                "StackObjectsCount": 90
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+     "secretQuest": false,
+     "side": "Pmc",
+     "startedMessageText": "JQ_5 startedMessageText",
+     "successMessageText": "JQ_5 successMessageText",
+     "templateId": "JQ_5",
+     "traderId": "jeovani"
+  }
+}
